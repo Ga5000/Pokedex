@@ -1,0 +1,42 @@
+.dex-container {
+    width: 1300px;
+    height: 600px;
+    border-radius: 20px;
+    position: absolute;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.20); 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto; 
+}
+
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 999; 
+    }
+    
+
+.dex-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.dex-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.dex-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 0, 0, 20);
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.dex-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}

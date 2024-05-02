@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #101010;
+  font-family: Raleway,sans-serif;
+}
+
+.pokeball-bc {
+  position: fixed;
+  width: 150px; 
+  height: auto; 
+  margin: 20px;
+}
+
+.pokeball-corner-0 {
+  top: 0;
+  left: 0;
+}
+
+.pokeball-corner-1 {
+  top: 0;
+  right: 0;
+}
+
+.pokeball-corner-2 {
+  bottom: 0;
+  left: 0;
+}
+
+.pokeball-corner-3 {
+  bottom: 0;
+  right: 0;
+}

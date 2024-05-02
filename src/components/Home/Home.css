@@ -1,0 +1,27 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.home-container h1{
+    font-size: 50px;
+    color: #ff0110;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    gap: 50px;
+}
+
+.home-container .pokemon{
+    width: 500px;
+}
+
+.home-container img{
+    width: 500px;
+}
