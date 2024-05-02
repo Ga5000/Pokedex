@@ -1,3 +1,3 @@
 [submodule "pokedex/public/PokeBaseForm/sprites"]
-    path = pokedex/public/PokeBaseForm/sprites
-    url = https://github.com/PokeAPI/sprites.git
+	path = pokedex/public/PokeBaseForm/sprites
+	url = https://github.com/PokeAPI/sprites\sprites.git
